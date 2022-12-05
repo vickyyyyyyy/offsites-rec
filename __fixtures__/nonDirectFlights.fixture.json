@@ -1,0 +1,2557 @@
+{
+  "itineraries": {
+    "buckets": [
+      {
+        "id": "Best",
+        "name": "Best",
+        "items": [
+          {
+            "id": "12712-2305152300--31781-1-15055-2305161300|15055-2305191400--31781-1-12712-2305192005",
+            "price": {
+              "raw": 430,
+              "formatted": "$430"
+            },
+            "legs": [
+              {
+                "id": "12712-2305152300--31781-1-15055-2305161300",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 540,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-15T23:00:00",
+                "arrival": "2023-05-16T13:00:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-13577-2305152300-2305161055--31781",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T23:00:00",
+                    "arrival": "2023-05-16T10:55:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "208",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-15055-2305161200-2305161300--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-16T12:00:00",
+                    "arrival": "2023-05-16T13:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1936",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31781-1-12712-2305192005",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 665,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T20:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13577-2305191400-2305191500--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T15:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1935",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-12712-2305191710-2305192005--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T17:10:00",
+                    "arrival": "2023-05-19T20:05:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "209",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 9.698969
+            },
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 7.05511,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/12712-2305152300--31781-1-15055-2305161300|15055-2305191400--31781-1-12712-2305192005?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "12712-2305152205--31781-1-15055-2305161300|15055-2305191400--31781-1-12712-2305192005",
+            "price": {
+              "raw": 433,
+              "formatted": "$433"
+            },
+            "legs": [
+              {
+                "id": "12712-2305152205--31781-1-15055-2305161300",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 595,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-15T22:05:00",
+                "arrival": "2023-05-16T13:00:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-13577-2305152205-2305161000--31781",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T22:05:00",
+                    "arrival": "2023-05-16T10:00:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "208",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-15055-2305161200-2305161300--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-16T12:00:00",
+                    "arrival": "2023-05-16T13:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1936",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31781-1-12712-2305192005",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 665,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T20:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13577-2305191400-2305191500--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T15:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1935",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-12712-2305191710-2305192005--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T17:10:00",
+                    "arrival": "2023-05-19T20:05:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "209",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 9.698969
+            },
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 6.69009,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/12712-2305152205--31781-1-15055-2305161300|15055-2305191400--31781-1-12712-2305192005?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "12712-2305152300--31781-1-15055-2305161300|15055-2305191100--31781-1-12712-2305192005",
+            "price": {
+              "raw": 416,
+              "formatted": "$416"
+            },
+            "legs": [
+              {
+                "id": "12712-2305152300--31781-1-15055-2305161300",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 540,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-15T23:00:00",
+                "arrival": "2023-05-16T13:00:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-13577-2305152300-2305161055--31781",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T23:00:00",
+                    "arrival": "2023-05-16T10:55:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "208",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-15055-2305161200-2305161300--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-16T12:00:00",
+                    "arrival": "2023-05-16T13:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1936",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191100--31781-1-12712-2305192005",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 845,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-19T11:00:00",
+                "arrival": "2023-05-19T20:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13577-2305191100-2305191200--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T11:00:00",
+                    "arrival": "2023-05-19T12:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1927",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  },
+                  {
+                    "id": "13577-12712-2305191710-2305192005--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T17:10:00",
+                    "arrival": "2023-05-19T20:05:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "209",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 8.58534
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 6.34301,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/12712-2305152300--31781-1-15055-2305161300|15055-2305191100--31781-1-12712-2305192005?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Fastest",
+        "name": "Fastest",
+        "items": [
+          {
+            "id": "11442-2305152250--31781-0-15055-2305161035|15055-2305191235--32478-0-11442-2305191530",
+            "price": {
+              "raw": 1188,
+              "formatted": "$1,188"
+            },
+            "legs": [
+              {
+                "id": "11442-2305152250--31781-0-15055-2305161035",
+                "origin": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 405,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T22:50:00",
+                "arrival": "2023-05-16T10:35:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "11442-15055-2305152250-2305161035--31781",
+                    "origin": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T22:50:00",
+                    "arrival": "2023-05-16T10:35:00",
+                    "durationInMinutes": 405,
+                    "flightNumber": "212",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191235--32478-0-11442-2305191530",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 475,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T12:35:00",
+                "arrival": "2023-05-19T15:30:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32478,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/SN.png",
+                      "name": "Brussels Airlines"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-11442-2305191235-2305191530--32478",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T12:35:00",
+                    "arrival": "2023-05-19T15:30:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "9031",
+                    "marketingCarrier": {
+                      "id": -32478,
+                      "name": "Brussels Airlines",
+                      "alternateId": "SN",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 3.49041,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/11442-2305152250--31781-0-15055-2305161035|15055-2305191235--32478-0-11442-2305191530?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "11442-2305152250--31781-0-15055-2305161035|15055-2305191235--31799-0-11442-2305191530",
+            "price": {
+              "raw": 1207,
+              "formatted": "$1,207"
+            },
+            "legs": [
+              {
+                "id": "11442-2305152250--31781-0-15055-2305161035",
+                "origin": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 405,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T22:50:00",
+                "arrival": "2023-05-16T10:35:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "11442-15055-2305152250-2305161035--31781",
+                    "origin": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T22:50:00",
+                    "arrival": "2023-05-16T10:35:00",
+                    "durationInMinutes": 405,
+                    "flightNumber": "212",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191235--31799-0-11442-2305191530",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 475,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T12:35:00",
+                "arrival": "2023-05-19T15:30:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31799,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                      "name": "SWISS"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-11442-2305191235-2305191530--31799",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T12:35:00",
+                    "arrival": "2023-05-19T15:30:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "3074",
+                    "marketingCarrier": {
+                      "id": -31799,
+                      "name": "SWISS",
+                      "alternateId": "LX",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 3.43541,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/11442-2305152250--31781-0-15055-2305161035|15055-2305191235--31799-0-11442-2305191530?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "11442-2305152250--31781-0-15055-2305161035|15055-2305191235--31722-0-11442-2305191530",
+            "price": {
+              "raw": 1190,
+              "formatted": "$1,190"
+            },
+            "legs": [
+              {
+                "id": "11442-2305152250--31781-0-15055-2305161035",
+                "origin": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 405,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T22:50:00",
+                "arrival": "2023-05-16T10:35:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "11442-15055-2305152250-2305161035--31781",
+                    "origin": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T22:50:00",
+                    "arrival": "2023-05-16T10:35:00",
+                    "durationInMinutes": 405,
+                    "flightNumber": "212",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191235--31722-0-11442-2305191530",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 475,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T12:35:00",
+                "arrival": "2023-05-19T15:30:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-11442-2305191235-2305191530--31722",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T12:35:00",
+                    "arrival": "2023-05-19T15:30:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "145",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 3.48715,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/11442-2305152250--31781-0-15055-2305161035|15055-2305191235--31722-0-11442-2305191530?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Cheapest",
+        "name": "Cheapest",
+        "items": [
+          {
+            "id": "12712-2305152300--31781-1-15055-2305161300|15055-2305191100--31781-1-12712-2305192005",
+            "price": {
+              "raw": 416,
+              "formatted": "$416"
+            },
+            "legs": [
+              {
+                "id": "12712-2305152300--31781-1-15055-2305161300",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 540,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-15T23:00:00",
+                "arrival": "2023-05-16T13:00:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-13577-2305152300-2305161055--31781",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T23:00:00",
+                    "arrival": "2023-05-16T10:55:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "208",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-15055-2305161200-2305161300--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-16T12:00:00",
+                    "arrival": "2023-05-16T13:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1936",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191100--31781-1-12712-2305192005",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 845,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-19T11:00:00",
+                "arrival": "2023-05-19T20:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13577-2305191100-2305191200--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T11:00:00",
+                    "arrival": "2023-05-19T12:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1927",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  },
+                  {
+                    "id": "13577-12712-2305191710-2305192005--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T17:10:00",
+                    "arrival": "2023-05-19T20:05:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "209",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 8.58534
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 6.34301,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/12712-2305152300--31781-1-15055-2305161300|15055-2305191100--31781-1-12712-2305192005?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "12712-2305152300--31781-1-15055-2305161300|15055-2305191400--31781-1-12712-2305192005",
+            "price": {
+              "raw": 430,
+              "formatted": "$430"
+            },
+            "legs": [
+              {
+                "id": "12712-2305152300--31781-1-15055-2305161300",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 540,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-15T23:00:00",
+                "arrival": "2023-05-16T13:00:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31953,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/NI.png",
+                      "name": "Portugalia Airlines"
+                    }
+                  ],
+                  "operationType": "partially_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-13577-2305152300-2305161055--31781",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T23:00:00",
+                    "arrival": "2023-05-16T10:55:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "208",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-15055-2305161200-2305161300--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-16T12:00:00",
+                    "arrival": "2023-05-16T13:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1936",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31953,
+                      "name": "Portugalia Airlines",
+                      "alternateId": "NI",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31781-1-12712-2305192005",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 665,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T20:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13577-2305191400-2305191500--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T15:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1935",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-12712-2305191710-2305192005--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T17:10:00",
+                    "arrival": "2023-05-19T20:05:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "209",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 9.698969
+            },
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 7.05511,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/12712-2305152300--31781-1-15055-2305161300|15055-2305191400--31781-1-12712-2305192005?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "12712-2305152205--31781-1-15055-2305161500|15055-2305191400--31781-1-12712-2305192005",
+            "price": {
+              "raw": 432,
+              "formatted": "$432"
+            },
+            "legs": [
+              {
+                "id": "12712-2305152205--31781-1-15055-2305161500",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 715,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-15T22:05:00",
+                "arrival": "2023-05-16T15:00:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-13577-2305152205-2305161000--31781",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T22:05:00",
+                    "arrival": "2023-05-16T10:00:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "208",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-15055-2305161400-2305161500--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-16T14:00:00",
+                    "arrival": "2023-05-16T15:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1954",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31781-1-12712-2305192005",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 665,
+                "stopCount": 1,
+                "isSmallestStops": false,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T20:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13577-2305191400-2305191500--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T15:00:00",
+                    "durationInMinutes": 60,
+                    "flightNumber": "1935",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  },
+                  {
+                    "id": "13577-12712-2305191710-2305192005--31781",
+                    "origin": {
+                      "flightPlaceId": "LIS",
+                      "parent": {
+                        "flightPlaceId": "LISB",
+                        "name": "Lisbon",
+                        "type": "City"
+                      },
+                      "name": "Lisbon",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T17:10:00",
+                    "arrival": "2023-05-19T20:05:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "209",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 10.2376995
+            },
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 6.12637,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/12712-2305152205--31781-1-15055-2305161500|15055-2305191400--31781-1-12712-2305192005?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Direct",
+        "name": "Direct",
+        "items": [
+          {
+            "id": "11442-2305152150--32695-0-15055-2305160945|15055-2305191235--31799-0-11442-2305191530",
+            "price": {
+              "raw": 709,
+              "formatted": "$709"
+            },
+            "legs": [
+              {
+                "id": "11442-2305152150--32695-0-15055-2305160945",
+                "origin": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 415,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T21:50:00",
+                "arrival": "2023-05-16T09:45:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "11442-15055-2305152150-2305160945--32695",
+                    "origin": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T21:50:00",
+                    "arrival": "2023-05-16T09:45:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "4072",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191235--31799-0-11442-2305191530",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 475,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T12:35:00",
+                "arrival": "2023-05-19T15:30:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31799,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/LX.png",
+                      "name": "SWISS"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-11442-2305191235-2305191530--31799",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T12:35:00",
+                    "arrival": "2023-05-19T15:30:00",
+                    "durationInMinutes": 475,
+                    "flightNumber": "3074",
+                    "marketingCarrier": {
+                      "id": -31799,
+                      "name": "SWISS",
+                      "alternateId": "LX",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 5.78598,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/11442-2305152150--32695-0-15055-2305160945|15055-2305191235--31799-0-11442-2305191530?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "11442-2305152250--31781-0-15055-2305161035|15055-2305191805--31781-0-11442-2305192105",
+            "price": {
+              "raw": 870,
+              "formatted": "$870"
+            },
+            "legs": [
+              {
+                "id": "11442-2305152250--31781-0-15055-2305161035",
+                "origin": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 405,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T22:50:00",
+                "arrival": "2023-05-16T10:35:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "11442-15055-2305152250-2305161035--31781",
+                    "origin": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T22:50:00",
+                    "arrival": "2023-05-16T10:35:00",
+                    "durationInMinutes": 405,
+                    "flightNumber": "212",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191805--31781-0-11442-2305192105",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 480,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T18:05:00",
+                "arrival": "2023-05-19T21:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-11442-2305191805-2305192105--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T18:05:00",
+                    "arrival": "2023-05-19T21:05:00",
+                    "durationInMinutes": 480,
+                    "flightNumber": "213",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 4.74254,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/11442-2305152250--31781-0-15055-2305161035|15055-2305191805--31781-0-11442-2305192105?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "11442-2305152150--31781-0-15055-2305160945|15055-2305191805--31781-0-11442-2305192105",
+            "price": {
+              "raw": 930,
+              "formatted": "$930"
+            },
+            "legs": [
+              {
+                "id": "11442-2305152150--31781-0-15055-2305160945",
+                "origin": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 415,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T21:50:00",
+                "arrival": "2023-05-16T09:45:00",
+                "timeDeltaInDays": 1,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "11442-15055-2305152150-2305160945--31781",
+                    "origin": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T21:50:00",
+                    "arrival": "2023-05-16T09:45:00",
+                    "durationInMinutes": 415,
+                    "flightNumber": "144",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191805--31781-0-11442-2305192105",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "EWR",
+                  "name": "New York Newark",
+                  "displayCode": "EWR",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 480,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T18:05:00",
+                "arrival": "2023-05-19T21:05:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-11442-2305191805-2305192105--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "EWR",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York Newark",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T18:05:00",
+                    "arrival": "2023-05-19T21:05:00",
+                    "durationInMinutes": 480,
+                    "flightNumber": "213",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 4.38559,
+            "deeplink": "https://www.skyscanner.net/transport/flights/nyca/opo/230515/230519/config/11442-2305152150--31781-0-15055-2305160945|15055-2305191805--31781-0-11442-2305192105?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27537542&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      }
+    ]
+  },
+  "context": {
+    "status": "complete",
+    "sessionId": "43eb93d5-77f0-46e5-b7bf-59fc3127cb94",
+    "totalResults": 967
+  }
+}

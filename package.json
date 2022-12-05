@@ -1,0 +1,21 @@
+{
+  "name": "offsites-rec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "getFlightEstimations": "node ./script getFlightEstimations",
+    "test": "jest"
+  },
+  "author": "Vicky Lee <vicky.winkay.lee@gmail.com> (https://vickylee.codes/)",
+  "license": "ISC",
+  "dependencies": {
+    "@duffel/api": "^1.18.0",
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "make-runnable": "^1.4.0"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
