@@ -1,5 +1,6 @@
 require("dotenv").config()
 const axios = require("axios");
+const { memoize } = require("./util")
 
 const getFlight = async (origin, destination) => {
   if (!origin) throw new Error("no origin given")
@@ -45,7 +46,9 @@ const getFlightEstimations = async (origins, destination) => {
   if (!origins) throw new Error("no origins given")
   if (!destination) throw new Error("no destination given")
 
-  const avgs = await Promise.all(origins.map(async(o) => await getFlight(o, destination)))
+  const memoizedGetFlight = memoize(getFlight);
+
+  const avgs = await Promise.all(origins.map((o) => memoizedGetFlight(o, destination)))
 
   const totalPrice = avgs.map(f => f.price).reduce((a,b) => a+b, 0)
 

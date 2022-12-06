@@ -5,6 +5,10 @@ const { getFlight, getFlightEstimations } = require("./script")
 const axios = require("axios");
 
 describe("offsites-rec", () => {
+  beforeEach(() => {
+    jest.restoreAllMocks()
+  })
+
   describe("getFlight", () => {
     it("with no origin or destination returns no origin error", async () => {
       await expect(getFlight()).rejects.toThrow("no origin given")
@@ -51,6 +55,47 @@ describe("offsites-rec", () => {
         ],
         totalPrice: 578
       })
+    })
+  
+    it("with multiple duplicate origins returns flight averages", async () => {
+      jest.spyOn(axios, "request")
+        .mockResolvedValueOnce({ data: NYCAToOPOFlights })
+        .mockResolvedValueOnce({ data: LGWToOPOFlights })
+        .mockResolvedValueOnce({ data: MADToOPOFlights })
+    
+      const results = await getFlightEstimations(["NYCA", "NYCA"], "OPO")
+      expect(results).toEqual({
+        avgs: [
+          {"origin": "NYCA", "durations": 642, "price": 427, "stops": 1},
+          {"origin": "NYCA", "durations": 642, "price": 427, "stops": 1},
+        ],
+        totalPrice: 854
+      })
+    })
+
+    it("with multiple duplicate and distinct origins returns flight averages", async () => {
+      jest.spyOn(axios, "request")
+        .mockResolvedValueOnce({ data: NYCAToOPOFlights })
+        .mockResolvedValueOnce({ data: LGWToOPOFlights })
+        .mockResolvedValueOnce({ data: MADToOPOFlights })
+    
+      const results = await getFlightEstimations(["NYCA", "NYCA", "LGW", "MAD"], "OPO")
+      expect(results).toEqual({
+        avgs: [
+          {"origin": "NYCA", "durations": 642, "price": 427, "stops": 1},
+          {"origin": "NYCA", "durations": 642, "price": 427, "stops": 1},
+          {"origin": "LGW", "durations": 143, "price": 83, "stops": 0},
+          {"origin": "MAD", "durations": 76, "price": 68, "stops": 0},
+        ],
+        totalPrice: 1005
+      })
+    })
+
+    it("with multiple duplicate origins returns flight averages without calling API for same origin multiple times", async () => {
+      const spy = jest.spyOn(axios, "request").mockResolvedValue({ data: NYCAToOPOFlights })
+
+      await getFlightEstimations(["NYCA", "NYCA"], "OPO")
+      expect(spy).toHaveBeenCalledTimes(1)
     })
   })
 })
