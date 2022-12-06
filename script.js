@@ -2,9 +2,11 @@ require("dotenv").config()
 const axios = require("axios");
 const { memoize } = require("./util")
 
-const getFlight = async (origin, destination) => {
+const getFlight = async (origin, destination, departureDate, returnDate) => {
   if (!origin) throw new Error("no origin given")
   if (!destination) throw new Error("no destination given")
+  if (!departureDate) throw new Error("no departure date given")
+  if (!returnDate) throw new Error("no return date given")
 
   const options = {
     method: "GET",
@@ -13,8 +15,8 @@ const getFlight = async (origin, destination) => {
       adults: "1",
       origin,
       destination,
-      departureDate: "2023-05-15",
-      returnDate: "2023-05-19",
+      departureDate,
+      returnDate,
       currency: "USD"
     },
     headers: {
@@ -42,13 +44,15 @@ const getFlight = async (origin, destination) => {
   return avg
 }
 
-const getFlightEstimations = async (origins, destination) => {
+const getFlightEstimations = async (origins, destination, departureDate, returnDate) => {
   if (!origins) throw new Error("no origins given")
   if (!destination) throw new Error("no destination given")
+  if (!departureDate) throw new Error("no departure date given")
+  if (!returnDate) throw new Error("no return date given")
 
   const memoizedGetFlight = memoize(getFlight);
 
-  const avgs = await Promise.all(origins.map((o) => memoizedGetFlight(o, destination)))
+  const avgs = await Promise.all(origins.map((o) => memoizedGetFlight(o, destination, departureDate, returnDate)))
 
   const totalPrice = avgs.map(f => f.price).reduce((a,b) => a+b, 0)
 
