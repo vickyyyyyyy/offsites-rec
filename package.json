@@ -4,6 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "getFlight": "node ./script getFlight",
     "getFlightEstimations": "node ./script getFlightEstimations",
     "test": "jest"
   },
