@@ -1,4 +1,4 @@
-require('dotenv').config()
+require("dotenv").config()
 const axios = require("axios");
 
 const getFlight = async (origin, destination) => {
@@ -6,19 +6,19 @@ const getFlight = async (origin, destination) => {
   if (!destination) throw new Error("no destination given")
 
   const options = {
-    method: 'GET',
-    url: 'https://skyscanner44.p.rapidapi.com/search',
+    method: "GET",
+    url: "https://skyscanner44.p.rapidapi.com/search",
     params: {
-      adults: '1',
+      adults: "1",
       origin,
       destination,
-      departureDate: '2023-05-15',
-      returnDate: '2023-05-19',
-      currency: 'USD'
+      departureDate: "2023-05-15",
+      returnDate: "2023-05-19",
+      currency: "USD"
     },
     headers: {
-      'X-RapidAPI-Key': process.env.API_KEY,
-      'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
+      "X-RapidAPI-Key": process.env.API_KEY,
+      "X-RapidAPI-Host": "skyscanner44.p.rapidapi.com"
     }
   };
 
@@ -60,4 +60,4 @@ module.exports = {
   getFlightEstimations
 }
 
-require('make-runnable')
+require("make-runnable")
