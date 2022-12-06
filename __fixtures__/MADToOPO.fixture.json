@@ -1,0 +1,2006 @@
+{
+  "itineraries": {
+    "buckets": [
+      {
+        "id": "Best",
+        "name": "Best",
+        "items": [
+          {
+            "id": "13870-2305151430--31915-0-15055-2305151445|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 66,
+              "formatted": "$66"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151430--31915-0-15055-2305151445",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T14:30:00",
+                "arrival": "2023-05-15T14:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151430-2305151445--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T14:30:00",
+                    "arrival": "2023-05-15T14:45:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5482",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151430--31915-0-15055-2305151445|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305150610--31915-0-15055-2305150625|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 69,
+              "formatted": "$69"
+            },
+            "legs": [
+              {
+                "id": "13870-2305150610--31915-0-15055-2305150625",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T06:10:00",
+                "arrival": "2023-05-15T06:25:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305150610-2305150625--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T06:10:00",
+                    "arrival": "2023-05-15T06:25:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "572",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.52494,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305150610--31915-0-15055-2305150625|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305151715--32356-0-15055-2305151735|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 69,
+              "formatted": "$69"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151715--32356-0-15055-2305151735",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 80,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T17:15:00",
+                "arrival": "2023-05-15T17:35:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151715-2305151735--32356",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T17:15:00",
+                    "arrival": "2023-05-15T17:35:00",
+                    "durationInMinutes": 80,
+                    "flightNumber": "7766",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": true,
+            "hasFlexibleOptions": false,
+            "score": 9.28947,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151715--32356-0-15055-2305151735|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Fastest",
+        "name": "Fastest",
+        "items": [
+          {
+            "id": "13870-2305151430--31915-0-15055-2305151445|15055-2305192035--31915-0-13870-2305192250",
+            "price": {
+              "raw": 71,
+              "formatted": "$71"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151430--31915-0-15055-2305151445",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T14:30:00",
+                "arrival": "2023-05-15T14:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151430-2305151445--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T14:30:00",
+                    "arrival": "2023-05-15T14:45:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5482",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305192035--31915-0-13870-2305192250",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T20:35:00",
+                "arrival": "2023-05-19T22:50:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305192035-2305192250--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T20:35:00",
+                    "arrival": "2023-05-19T22:50:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5485",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.24758,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151430--31915-0-15055-2305151445|15055-2305192035--31915-0-13870-2305192250?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305151430--31915-0-15055-2305151445|15055-2305190620--31915-0-13870-2305190835",
+            "price": {
+              "raw": 71,
+              "formatted": "$71"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151430--31915-0-15055-2305151445",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T14:30:00",
+                "arrival": "2023-05-15T14:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151430-2305151445--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T14:30:00",
+                    "arrival": "2023-05-15T14:45:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5482",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190620--31915-0-13870-2305190835",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T06:20:00",
+                "arrival": "2023-05-19T08:35:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305190620-2305190835--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T06:20:00",
+                    "arrival": "2023-05-19T08:35:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "573",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.24149,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151430--31915-0-15055-2305151445|15055-2305190620--31915-0-13870-2305190835?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305150610--31915-0-15055-2305150625|15055-2305190620--31915-0-13870-2305190835",
+            "price": {
+              "raw": 74,
+              "formatted": "$74"
+            },
+            "legs": [
+              {
+                "id": "13870-2305150610--31915-0-15055-2305150625",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T06:10:00",
+                "arrival": "2023-05-15T06:25:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305150610-2305150625--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T06:10:00",
+                    "arrival": "2023-05-15T06:25:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "572",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190620--31915-0-13870-2305190835",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T06:20:00",
+                "arrival": "2023-05-19T08:35:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305190620-2305190835--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T06:20:00",
+                    "arrival": "2023-05-19T08:35:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "573",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 8.85203,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305150610--31915-0-15055-2305150625|15055-2305190620--31915-0-13870-2305190835?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Cheapest",
+        "name": "Cheapest",
+        "items": [
+          {
+            "id": "13870-2305151430--31915-0-15055-2305151445|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 66,
+              "formatted": "$66"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151430--31915-0-15055-2305151445",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T14:30:00",
+                "arrival": "2023-05-15T14:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151430-2305151445--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T14:30:00",
+                    "arrival": "2023-05-15T14:45:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5482",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151430--31915-0-15055-2305151445|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305151430--31915-0-15055-2305151445|15055-2305191415--32356-0-13870-2305191640",
+            "price": {
+              "raw": 68,
+              "formatted": "$68"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151430--31915-0-15055-2305151445",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T14:30:00",
+                "arrival": "2023-05-15T14:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151430-2305151445--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T14:30:00",
+                    "arrival": "2023-05-15T14:45:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5482",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191415--32356-0-13870-2305191640",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 85,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:15:00",
+                "arrival": "2023-05-19T16:40:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191415-2305191640--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:15:00",
+                    "arrival": "2023-05-19T16:40:00",
+                    "durationInMinutes": 85,
+                    "flightNumber": "7765",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": true,
+            "hasFlexibleOptions": false,
+            "score": 9.06847,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151430--31915-0-15055-2305151445|15055-2305191415--32356-0-13870-2305191640?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305151715--32356-0-15055-2305151735|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 69,
+              "formatted": "$69"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151715--32356-0-15055-2305151735",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 80,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T17:15:00",
+                "arrival": "2023-05-15T17:35:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151715-2305151735--32356",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T17:15:00",
+                    "arrival": "2023-05-15T17:35:00",
+                    "durationInMinutes": 80,
+                    "flightNumber": "7766",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": true,
+            "hasFlexibleOptions": false,
+            "score": 9.28947,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151715--32356-0-15055-2305151735|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Direct",
+        "name": "Direct",
+        "items": [
+          {
+            "id": "13870-2305151430--31915-0-15055-2305151445|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 66,
+              "formatted": "$66"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151430--31915-0-15055-2305151445",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T14:30:00",
+                "arrival": "2023-05-15T14:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151430-2305151445--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T14:30:00",
+                    "arrival": "2023-05-15T14:45:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5482",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151430--31915-0-15055-2305151445|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305150610--31915-0-15055-2305150625|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 69,
+              "formatted": "$69"
+            },
+            "legs": [
+              {
+                "id": "13870-2305150610--31915-0-15055-2305150625",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T06:10:00",
+                "arrival": "2023-05-15T06:25:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305150610-2305150625--31915",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T06:10:00",
+                    "arrival": "2023-05-15T06:25:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "572",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.52494,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305150610--31915-0-15055-2305150625|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13870-2305151715--32356-0-15055-2305151735|15055-2305191400--31915-0-13870-2305191615",
+            "price": {
+              "raw": 69,
+              "formatted": "$69"
+            },
+            "legs": [
+              {
+                "id": "13870-2305151715--32356-0-15055-2305151735",
+                "origin": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 80,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T17:15:00",
+                "arrival": "2023-05-15T17:35:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13870-15055-2305151715-2305151735--32356",
+                    "origin": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T17:15:00",
+                    "arrival": "2023-05-15T17:35:00",
+                    "durationInMinutes": 80,
+                    "flightNumber": "7766",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191400--31915-0-13870-2305191615",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "MAD",
+                  "name": "Madrid",
+                  "displayCode": "MAD",
+                  "city": "Madrid",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 75,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T14:00:00",
+                "arrival": "2023-05-19T16:15:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31915,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/FR.png",
+                      "name": "Ryanair"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13870-2305191400-2305191615--31915",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "MAD",
+                      "parent": {
+                        "flightPlaceId": "MADR",
+                        "name": "Madrid",
+                        "type": "City"
+                      },
+                      "name": "Madrid",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T14:00:00",
+                    "arrival": "2023-05-19T16:15:00",
+                    "durationInMinutes": 75,
+                    "flightNumber": "5483",
+                    "marketingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31915,
+                      "name": "Ryanair",
+                      "alternateId": "FR",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isMashUp": true,
+            "hasFlexibleOptions": false,
+            "score": 9.28947,
+            "deeplink": "https://www.skyscanner.net/transport/flights/mad/opo/230515/230519/config/13870-2305151715--32356-0-15055-2305151735|15055-2305191400--31915-0-13870-2305191615?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544850&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      }
+    ]
+  },
+  "context": {
+    "status": "incomplete",
+    "sessionId": "35ea296b-4f06-43e8-ab12-5d743d385e2c",
+    "totalResults": 10
+  }
+}

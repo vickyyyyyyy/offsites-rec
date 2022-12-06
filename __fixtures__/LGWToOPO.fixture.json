@@ -1,0 +1,2055 @@
+{
+  "itineraries": {
+    "buckets": [
+      {
+        "id": "Best",
+        "name": "Best",
+        "items": [
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191945--32356-0-13542-2305192200",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T19:45:00",
+                "arrival": "2023-05-19T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191945-2305192200--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T19:45:00",
+                    "arrival": "2023-05-19T22:00:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "8524",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 30.418884
+            },
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305190640--32356-0-13542-2305190900",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190640--32356-0-13542-2305190900",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 140,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T06:40:00",
+                "arrival": "2023-05-19T09:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305190640-2305190900--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T06:40:00",
+                    "arrival": "2023-05-19T09:00:00",
+                    "durationInMinutes": 140,
+                    "flightNumber": "8526",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 29.96831
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.80985,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305190640--32356-0-13542-2305190900?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150550--32356-0-15055-2305150825|15055-2305191945--32356-0-13542-2305192200",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150550--32356-0-15055-2305150825",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 155,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T05:50:00",
+                "arrival": "2023-05-15T08:25:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150550-2305150825--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T05:50:00",
+                    "arrival": "2023-05-15T08:25:00",
+                    "durationInMinutes": 155,
+                    "flightNumber": "8523",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191945--32356-0-13542-2305192200",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T19:45:00",
+                "arrival": "2023-05-19T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191945-2305192200--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T19:45:00",
+                    "arrival": "2023-05-19T22:00:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "8524",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 30.418884
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.64071,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150550--32356-0-15055-2305150825|15055-2305191945--32356-0-13542-2305192200?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Fastest",
+        "name": "Fastest",
+        "items": [
+          {
+            "id": "13542-2305152105--31781-0-15055-2305152330|15055-2305191805--31781-0-13542-2305192020",
+            "price": {
+              "raw": 121,
+              "formatted": "$121"
+            },
+            "legs": [
+              {
+                "id": "13542-2305152105--31781-0-15055-2305152330",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T21:05:00",
+                "arrival": "2023-05-15T23:30:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305152105-2305152330--31781",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T21:05:00",
+                    "arrival": "2023-05-15T23:30:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "1335",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191805--31781-0-13542-2305192020",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T18:05:00",
+                "arrival": "2023-05-19T20:20:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191805-2305192020--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T18:05:00",
+                    "arrival": "2023-05-19T20:20:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "1332",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 25.138176
+            },
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 6.8523,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305152105--31781-0-15055-2305152330|15055-2305191805--31781-0-13542-2305192020?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305190855--31781-0-13542-2305191110",
+            "price": {
+              "raw": 132,
+              "formatted": "$132"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190855--31781-0-13542-2305191110",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T08:55:00",
+                "arrival": "2023-05-19T11:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31781,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/TP.png",
+                      "name": "TAP Air Portugal"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305190855-2305191110--31781",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T08:55:00",
+                    "arrival": "2023-05-19T11:10:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "1334",
+                    "marketingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    },
+                    "operatingCarrier": {
+                      "id": -31781,
+                      "name": "TAP Air Portugal",
+                      "alternateId": "TP",
+                      "allianceId": -31999
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 27.553242
+            },
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 6.28634,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305190855--31781-0-13542-2305191110?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191945--32356-0-13542-2305192200",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T19:45:00",
+                "arrival": "2023-05-19T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191945-2305192200--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T19:45:00",
+                    "arrival": "2023-05-19T22:00:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "8524",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 30.418884
+            },
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Cheapest",
+        "name": "Cheapest",
+        "items": [
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191945--32356-0-13542-2305192200",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T19:45:00",
+                "arrival": "2023-05-19T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191945-2305192200--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T19:45:00",
+                    "arrival": "2023-05-19T22:00:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "8524",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 30.418884
+            },
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305190640--32356-0-13542-2305190900",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190640--32356-0-13542-2305190900",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 140,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T06:40:00",
+                "arrival": "2023-05-19T09:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305190640-2305190900--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T06:40:00",
+                    "arrival": "2023-05-19T09:00:00",
+                    "durationInMinutes": 140,
+                    "flightNumber": "8526",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 29.96831
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.80985,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305190640--32356-0-13542-2305190900?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150550--32356-0-15055-2305150825|15055-2305190640--32356-0-13542-2305190900",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150550--32356-0-15055-2305150825",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 155,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T05:50:00",
+                "arrival": "2023-05-15T08:25:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150550-2305150825--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T05:50:00",
+                    "arrival": "2023-05-15T08:25:00",
+                    "durationInMinutes": 155,
+                    "flightNumber": "8523",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190640--32356-0-13542-2305190900",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 140,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T06:40:00",
+                "arrival": "2023-05-19T09:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305190640-2305190900--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T06:40:00",
+                    "arrival": "2023-05-19T09:00:00",
+                    "durationInMinutes": 140,
+                    "flightNumber": "8526",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 29.96831
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.47731,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150550--32356-0-15055-2305150825|15055-2305190640--32356-0-13542-2305190900?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Direct",
+        "name": "Direct",
+        "items": [
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191945--32356-0-13542-2305192200",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T19:45:00",
+                "arrival": "2023-05-19T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191945-2305192200--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T19:45:00",
+                    "arrival": "2023-05-19T22:00:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "8524",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 30.418884
+            },
+            "tags": [
+              "cheapest",
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.98502,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305191945--32356-0-13542-2305192200?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150945--32356-0-15055-2305151210|15055-2305190640--32356-0-13542-2305190900",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150945--32356-0-15055-2305151210",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 145,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T09:45:00",
+                "arrival": "2023-05-15T12:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150945-2305151210--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T09:45:00",
+                    "arrival": "2023-05-15T12:10:00",
+                    "durationInMinutes": 145,
+                    "flightNumber": "8527",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305190640--32356-0-13542-2305190900",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 140,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T06:40:00",
+                "arrival": "2023-05-19T09:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305190640-2305190900--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T06:40:00",
+                    "arrival": "2023-05-19T09:00:00",
+                    "durationInMinutes": 140,
+                    "flightNumber": "8526",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 29.96831
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.80985,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150945--32356-0-15055-2305151210|15055-2305190640--32356-0-13542-2305190900?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "13542-2305150550--32356-0-15055-2305150825|15055-2305191945--32356-0-13542-2305192200",
+            "price": {
+              "raw": 83,
+              "formatted": "$83"
+            },
+            "legs": [
+              {
+                "id": "13542-2305150550--32356-0-15055-2305150825",
+                "origin": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 155,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-15T05:50:00",
+                "arrival": "2023-05-15T08:25:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "13542-15055-2305150550-2305150825--32356",
+                    "origin": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-15T05:50:00",
+                    "arrival": "2023-05-15T08:25:00",
+                    "durationInMinutes": 155,
+                    "flightNumber": "8523",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "15055-2305191945--32356-0-13542-2305192200",
+                "origin": {
+                  "id": "OPO",
+                  "name": "Porto",
+                  "displayCode": "OPO",
+                  "city": "Porto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "LGW",
+                  "name": "London Gatwick",
+                  "displayCode": "LGW",
+                  "city": "London",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 135,
+                "stopCount": 0,
+                "isSmallestStops": true,
+                "departure": "2023-05-19T19:45:00",
+                "arrival": "2023-05-19T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32356,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/EZ.png",
+                      "name": "easyJet"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "15055-13542-2305191945-2305192200--32356",
+                    "origin": {
+                      "flightPlaceId": "OPO",
+                      "parent": {
+                        "flightPlaceId": "PORT",
+                        "name": "Porto",
+                        "type": "City"
+                      },
+                      "name": "Porto",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "LGW",
+                      "parent": {
+                        "flightPlaceId": "LOND",
+                        "name": "London",
+                        "type": "City"
+                      },
+                      "name": "London Gatwick",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-05-19T19:45:00",
+                    "arrival": "2023-05-19T22:00:00",
+                    "durationInMinutes": 135,
+                    "flightNumber": "8524",
+                    "marketingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -32356,
+                      "name": "easyJet",
+                      "alternateId": "EZ",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "eco": {
+              "ecoContenderDelta": 30.418884
+            },
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 9.64071,
+            "deeplink": "https://www.skyscanner.net/transport/flights/lgw/opo/230515/230519/config/13542-2305150550--32356-0-15055-2305150825|15055-2305191945--32356-0-13542-2305192200?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27545236&originentityid=27544008&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      }
+    ]
+  },
+  "context": {
+    "status": "incomplete",
+    "sessionId": "b2dcb66e-46a4-49b2-9e70-511bd84d70f1",
+    "totalResults": 10
+  }
+}
