@@ -1,7 +1,10 @@
 require('dotenv').config()
 const axios = require("axios");
 
-const getFlight = async (origin = 'NYCA', destination = 'OPO') => {
+const getFlight = async (origin, destination) => {
+  if (!origin) throw new Error("no origin given")
+  if (!destination) throw new Error("no destination given")
+
   const options = {
     method: 'GET',
     url: 'https://skyscanner44.p.rapidapi.com/search',
@@ -38,10 +41,11 @@ const getFlight = async (origin = 'NYCA', destination = 'OPO') => {
   return avg
 }
 
-const getFlightEstimations = async () => {
-  const origins = [ "NYCA", "LGW", "MAD" ]
+const getFlightEstimations = async (origins, destination) => {
+  if (!origins) throw new Error("no origins given")
+  if (!destination) throw new Error("no destination given")
 
-  const avgs = await Promise.all(origins.map(async(o) => await getFlight(o)))
+  const avgs = await Promise.all(origins.map(async(o) => await getFlight(o, destination)))
 
   const totalPrice = avgs.map(f => f.price).reduce((a,b) => a+b, 0)
 
