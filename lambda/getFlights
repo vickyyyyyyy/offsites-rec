@@ -52,7 +52,8 @@ const getFlight = async (origin, destination, departureDate, returnDate, lambdaF
 }
 
 exports.handler = async (event) => {
-    const { origins, destination, departureDate, returnDate } = event?.queryStringParameters || {}
+    const { origins } = event?.multiValueQueryStringParameters || {}
+    const { destination, departureDate, returnDate } = event?.queryStringParameters || {}
     if (!origins) return badError("origins")
     if (!destination) return badError("destination")
     if (!departureDate) return badError("departure date")

@@ -3,8 +3,10 @@ const axios = require("axios")
 
 describe("getFlights", () => {
   const inputEvent = () => ({
+    multiValueQueryStringParameters: {
+      origins: ["NYCA", "LGW", "MAD"]
+    },
     queryStringParameters: {
-      origins: ["NYCA", "LGW", "MAD"],
       destination: "OPO",
       departureDate: "2023-05-15",
       returnDate: "2023-05-19",
@@ -53,7 +55,7 @@ describe("getFlights", () => {
 
   it("with multiple duplicate and distinct origins returns flight averages and total", async () => {
     const inputEv = inputEvent()
-    inputEv.queryStringParameters.origins = ["NYCA", "NYCA", "LGW", "MAD"]
+    inputEv.multiValueQueryStringParameters.origins = ["NYCA", "NYCA", "LGW", "MAD"]
 
     jest.spyOn(axios, "request")
       .mockResolvedValueOnce({ 
@@ -93,7 +95,7 @@ describe("getFlights", () => {
 
   it("with multiple duplicate origins returns flight averages and total without calling API for same origin multiple times", async () => {
     const inputEv = inputEvent()
-    inputEv.queryStringParameters.origins = ["NYCA", "NYCA"]
+    inputEv.multiValueQueryStringParameters.origins = ["NYCA", "NYCA"]
   
     const spy = jest.spyOn(axios, "request")
       .mockResolvedValueOnce({ 
@@ -109,19 +111,29 @@ describe("getFlights", () => {
   })
 
   describe("errors", () => {
-    it("returns no origins error with no query params", async () => {
+    it("returns no origins error with no multivalue query params", async () => {
       const inputEv = inputEvent()
-      delete inputEv.queryStringParameters
+      delete inputEv.multiValueQueryStringParameters
   
       expect(await getFlight.handler(inputEv)).toEqual({
         statusCode: 400,
         body: "No origins given."
       })
     })
+
+    it("returns no origins error with no query params", async () => {
+      const inputEv = inputEvent()
+      delete inputEv.queryStringParameters
+  
+      expect(await getFlight.handler(inputEv)).toEqual({
+        statusCode: 400,
+        body: "No destination given."
+      })
+    })
   
     it("returns no origins error with no origin", async () => {
       const inputEv = inputEvent()
-      delete inputEv.queryStringParameters.origins
+      delete inputEv.multiValueQueryStringParameters.origins
   
       expect(await getFlight.handler(inputEv)).toEqual({
         statusCode: 400,
