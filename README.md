@@ -14,9 +14,10 @@ Run the script to get the flight averages and total price:
 npm run getFlightEstimations
 ```
 
-Run the script to get the averages for one flight:
+Run the script to get the averages for one flight with the following format:
 ```
-npm run getFlight
+npm run getFlight "<ORIGIN>" "<DESTINATION>" "<DEPARTURE_DATE>" "<RETURN_DATE>"
+// e.g. npm run getFlight "NYCA" "OPO" "2023-05-15" "2023-05-19"
 ```
 
 # Tests

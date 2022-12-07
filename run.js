@@ -1,10 +1,16 @@
-const { getFlight: getFlightCall, getFlightEstimations: getFlightEstimationsCall } = require("./script")
+const { getFlightEstimations: getFlightEstimationsCall } = require("./script")
+const getFlightCall = require("./lambda/getFlight")
 
-const getFlight = () => {
+const getFlight = async () => {
   const args = process.argv.slice(2);
   args.shift()
 
-  getFlightCall(...args)
+  return await getFlightCall.handler({
+    origin: args[0],
+    destination: args[1],
+    departureDate: args[2],
+    returnDate: args[3],
+  })
 }
 
 const getFlightEstimations = () => {
