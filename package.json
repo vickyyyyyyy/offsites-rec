@@ -4,6 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
+    "postinstall": "cd web-app && npm install",
+    "start": "cd web-app && npm start",
     "getFlight": "node ./script getFlight",
     "getFlightEstimations": "node ./script getFlightEstimations",
     "test": "jest"
