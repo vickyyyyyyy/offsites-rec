@@ -9,9 +9,10 @@ Create a .env file to hold the [API_KEY](https://rapidapi.com/3b-data-3b-data-de
 API_KEY=<your-api-key>
 ```
 
-Run the script to get the flight averages and total price:
+Run the script to get the averages for one flight with the following format:
 ```
-npm run getFlightEstimations
+npm run getFlights "[<ORIGIN>]" "<DESTINATION>" "<DEPARTURE_DATE>" "<RETURN_DATE>"
+// e.g. npm run getFlights "[NYCA,LGW,MAD]" "OPO" "2023-05-15" "2023-05-19"
 ```
 
 Run the script to get the averages for one flight with the following format:

@@ -7,7 +7,7 @@
     "postinstall": "cd web-app && npm install",
     "start": "cd web-app && npm start",
     "getFlight": "node ./run getFlight",
-    "getFlightEstimations": "node ./run getFlightEstimations",
+    "getFlights": "node ./run getFlights",
     "test": "jest"
   },
   "author": "Vicky Lee <vicky.winkay.lee@gmail.com> (https://vickylee.codes/)",
