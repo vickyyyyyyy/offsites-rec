@@ -9,36 +9,6 @@ describe("offsites-rec", () => {
     jest.restoreAllMocks()
   })
 
-  describe("getFlight", () => {
-    it("with no origin returns no origin error", async () => {
-      await expect(getFlight()).rejects.toThrow("no origin given")
-    })
-  
-    it("with origin but no destination returns no destination error", async () => {
-      await expect(getFlight("NYCA")).rejects.toThrow("no destination given")
-    })
-
-    it("with origin, destination, but no departure date returns no departure date error", async () => {
-      await expect(getFlight("NYCA", "OPO")).rejects.toThrow("no departure date given")
-    })
-  
-    it("with origin, destination, departure date but no return date returns no return date error", async () => {
-      await expect(getFlight("NYCA", "OPO", "2023-05-15")).rejects.toThrow("no return date given")
-    })
-  
-    it("with origin, destination, departure date and return date returns flight averages", async () => {
-      jest.spyOn(axios, "request").mockResolvedValue({ data: NYCAToOPOFlights })
-    
-      const results = await getFlight("NYCA", "OPO", "2023-05-15", "2023-05-19")
-      expect(results).toEqual({
-        "origin": "NYCA",
-        "durations": 642,
-        "price": 427,
-        "stops": 1
-      })
-    })
-  })
-
   describe("getFlightEstimations", () => {
     it("with no origins returns no origin error", async () => {
       await expect(getFlightEstimations()).rejects.toThrow("no origins given")
