@@ -6,7 +6,7 @@ const badError = (missing) => ({
 })
 
 exports.handler = async (event) => {
-    const { origin, destination, departureDate, returnDate } = event
+    const { origin, destination, departureDate, returnDate } = event?.queryStringParameters
     if (!origin) return badError("origin")
     if (!destination) return badError("destination")
     if (!departureDate) return badError("departure date")
@@ -48,7 +48,7 @@ exports.handler = async (event) => {
         
         return {
           statusCode: 200,
-          body: avg
+          body: JSON.stringify(avg)
         }
     } catch (error) {
         if (error.response) {

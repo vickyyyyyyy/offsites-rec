@@ -6,10 +6,12 @@ const getFlight = async () => {
   args.shift()
 
   return await getFlightCall.handler({
-    origin: args[0],
-    destination: args[1],
-    departureDate: args[2],
-    returnDate: args[3],
+    queryStringParameters: {
+      origin: args[0],
+      destination: args[1],
+      departureDate: args[2],
+      returnDate: args[3]
+    }
   })
 }
 

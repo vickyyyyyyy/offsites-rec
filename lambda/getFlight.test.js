@@ -4,10 +4,12 @@ const axios = require("axios")
 
 describe("getFlight", () => {
   const inputEvent = () => ({
-    origin: "NYCA",
-    destination: "OPO",
-    departureDate: "2023-05-15",
-    returnDate: "2023-05-19",
+    queryStringParameters: {
+      origin: "NYCA",
+      destination: "OPO",
+      departureDate: "2023-05-15",
+      returnDate: "2023-05-19",
+    }
   })
 
   beforeEach(() => {
@@ -19,18 +21,18 @@ describe("getFlight", () => {
   
     expect(await getFlight.handler(inputEvent())).toEqual({
       statusCode: 200,
-      body: {
+      body: JSON.stringify({
         "origin": "NYCA",
-        "duration": 642,
         "price": 427,
+        "duration": 642,
         "stops": 1
-      }})
+      })})
   })
 
   describe("errors", () => {
     it("returns no origin error with no origin", async () => {
       const inputEv = inputEvent()
-      delete inputEv.origin
+      delete inputEv.queryStringParameters.origin
   
       expect(await getFlight.handler(inputEv)).toEqual({
         statusCode: 400,
@@ -40,7 +42,7 @@ describe("getFlight", () => {
 
     it("returns no destination error with no destination", async () => {
       const inputEv = inputEvent()
-      delete inputEv.destination
+      delete inputEv.queryStringParameters.destination
   
       expect(await getFlight.handler(inputEv)).toEqual({
         statusCode: 400,
@@ -50,7 +52,7 @@ describe("getFlight", () => {
 
     it("returns no departure date error with no departure date", async () => {
       const inputEv = inputEvent()
-      delete inputEv.departureDate
+      delete inputEv.queryStringParameters.departureDate
   
       expect(await getFlight.handler(inputEv)).toEqual({
         statusCode: 400,
@@ -60,7 +62,7 @@ describe("getFlight", () => {
 
     it("returns no return date error with no return date", async () => {
       const inputEv = inputEvent()
-      delete inputEv.returnDate
+      delete inputEv.queryStringParameters.returnDate
   
       expect(await getFlight.handler(inputEv)).toEqual({
         statusCode: 400,
@@ -69,7 +71,6 @@ describe("getFlight", () => {
     })
 
     it("returns error with axios response", async () => {
-      const axiosError = 
       jest.spyOn(axios, "request").mockRejectedValue({ 
         response: {
           status: 400,
