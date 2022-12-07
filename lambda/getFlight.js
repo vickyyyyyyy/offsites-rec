@@ -6,7 +6,7 @@ const badError = (missing) => ({
 })
 
 exports.handler = async (event) => {
-    const { origin, destination, departureDate, returnDate } = event?.queryStringParameters
+    const { origin, destination, departureDate, returnDate } = event?.queryStringParameters || {}
     if (!origin) return badError("origin")
     if (!destination) return badError("destination")
     if (!departureDate) return badError("departure date")

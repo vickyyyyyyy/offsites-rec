@@ -30,6 +30,16 @@ describe("getFlight", () => {
   })
 
   describe("errors", () => {
+    it("returns no origin error with no query params", async () => {
+      const inputEv = inputEvent()
+      delete inputEv.queryStringParameters
+  
+      expect(await getFlight.handler(inputEv)).toEqual({
+        statusCode: 400,
+        body: "No origin given."
+      })
+    })
+  
     it("returns no origin error with no origin", async () => {
       const inputEv = inputEvent()
       delete inputEv.queryStringParameters.origin
