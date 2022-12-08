@@ -8,12 +8,13 @@
     "start": "cd web-app && npm start",
     "getFlight": "node ./run getFlight",
     "getFlights": "node ./run getFlights",
-    "test": "jest"
+    "test": "jest",
+    "test:lambda": "jest lambda",
+    "test:web-app": "cd web-app && npm test"
   },
   "author": "Vicky Lee <vicky.winkay.lee@gmail.com> (https://vickylee.codes/)",
   "license": "ISC",
   "dependencies": {
-    "@duffel/api": "^1.18.0",
     "axios": "^1.2.0",
     "dotenv": "^16.0.3",
     "make-runnable": "^1.4.0"
