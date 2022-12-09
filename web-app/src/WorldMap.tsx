@@ -23,7 +23,7 @@ const MapChart = ({
   const [markers, setMarkers] = React.useState<any>([])
 
   React.useEffect(() => {
-    const totalB = (flights[0]?.avgs?.length || 0) * budget
+    const totalB = (flights?.[0]?.avgs?.length || 0) * budget
 
     setMarkers(markers.map((marker: any) => ({
       ...marker,
@@ -32,16 +32,15 @@ const MapChart = ({
   }, [budget])
 
   React.useEffect(() => {
-    const totalB = (flights[0]?.avgs?.length || 0) * budget
+    const totalB = (flights?.[0]?.avgs?.length || 0) * budget
+    const filtered = markers.length > 0 ? flights.filter((f: any) => markers.some((m: any) => f.destination !== m.iata)) : flights
     setMarkers(
       [
         ...markers,
         // do not return markers for existing ones
-        ...(markers.length > 0
-          ? (flights.filter((f: any) => markers.some((m: any) => f.destination !== m.iata)))
-          : flights.map((f: any) => {
+        ...filtered.map((f: any) => {
             const airport = airports.find(a => a.iata === f.destination)
-        
+
             return {
               iata: airport?.iata,
               markerOffset: -10,
@@ -51,10 +50,9 @@ const MapChart = ({
               cost: f.totalPrice,
               color: checkAgainstBudget(+f.totalPrice, totalB)
             }
-          }))
+          })
     ])
   }, [flights])
-
 
   const checkAgainstBudget = (cost: number, totalBudget: number) => {
     // 10% tolerance for determining closeness

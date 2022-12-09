@@ -53,7 +53,7 @@ export default function App() {
   const [flights, setFlights] = React.useState<any>([])
 
   const handleSearch = async () => {
-    destinations.split(",").forEach((destination: string) => {
+    destinations.split(",").forEach(async (destination: string) => {
       const options = {
         method: "GET",
         url: process.env.REACT_APP_API_URL,
@@ -65,10 +65,9 @@ export default function App() {
         }
       }
 
-      // const response = await axios.request(options)
-      // console.log("response.data", response.data)
+      const response = await axios.request(options)
       // filter on any same destinations
-      setFlights((f: any) => f.some((fl: any) => fl.destination === testResponse[0].destination) ? f : [...f, testResponse[0]])
+      setFlights((f: any) => f.some((fl: any) => fl.destination === response.data.destination) ? f : [...f, response.data])
     })
   }
 
