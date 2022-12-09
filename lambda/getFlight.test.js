@@ -29,6 +29,29 @@ describe("getFlight", () => {
       })})
   })
 
+  it("returns data with same origin and destination", async () => {
+    const inputEv = inputEvent()
+    inputEv.queryStringParameters.origin = inputEv.queryStringParameters.destination
+
+    expect(await getFlight.handler(inputEv)).toEqual({
+      statusCode: 200,
+      body: JSON.stringify({
+        "origin": "OPO",
+        "price": 0,
+        "duration": 0,
+        "stops": 0
+      })})
+  })
+
+  it("does not call data API with same origin and destination", async () => {
+    const inputEv = inputEvent()
+    inputEv.queryStringParameters.origin = inputEv.queryStringParameters.destination
+    const spy = jest.spyOn(axios, "request")
+  
+    await getFlight.handler(inputEv)
+    expect(spy).not.toHaveBeenCalled()
+  })
+
   describe("errors", () => {
     it("returns no origin error with no query params", async () => {
       const inputEv = inputEvent()

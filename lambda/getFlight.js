@@ -11,6 +11,19 @@ exports.handler = async (event) => {
     if (!destination) return badError("destination")
     if (!departureDate) return badError("departure date")
     if (!returnDate) return badError("return date")
+
+    // do not bother hitting API if the origin and destination are the same
+    if (origin === destination) {
+        return {
+            statusCode: 200,
+            body: JSON.stringify({
+                origin,
+                price: 0,
+                duration: 0,
+                stops: 0,
+            })
+        }
+    }
     
     const options = {
         method: "GET",
