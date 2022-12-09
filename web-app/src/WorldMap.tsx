@@ -3,10 +3,23 @@ import {
   ZoomableGroup,
   ComposableMap,
   Geographies,
-  Geography
+  Geography,
+  Marker
 } from "react-simple-maps";
+import airports from "./airports.json"
 
-const MapChart = ({ setTooltipContent }: any) => {
+const MapChart = ({ flights, setTooltipContent }: any) => {
+  const markers = flights.map((f: any) => {
+    const airport = airports.find(a => a.iata === f.destination)
+    return {
+      markerOffset: -10,
+      name: airport?.name,
+      city: airport?.city,
+      coordinates: [airport?.longitude, airport?.latitude],
+      cost: f.totalPrice
+    }
+  })
+
   return (
     <div data-tip="">
       <ComposableMap>
@@ -41,6 +54,23 @@ const MapChart = ({ setTooltipContent }: any) => {
               ))
             }
           </Geographies>
+          {markers.map(({ name, coordinates, markerOffset, city, cost }: any) => (
+            <Marker
+              key={name}
+              coordinates={coordinates as any}
+              onMouseEnter={() => setTooltipContent("Total cost: " + cost)}
+              onMouseLeave={() => setTooltipContent("")}
+            >
+              <circle r={5} fill="#F00" stroke="#fff" strokeWidth={1} />
+              <text
+                textAnchor="middle"
+                y={markerOffset}
+                style={{ fontSize: 10, fontFamily: "system-ui", fill: "#5D5A6D" }}
+              >
+                {city}
+              </text>
+            </Marker>
+          ))}
         </ZoomableGroup>
       </ComposableMap>
     </div>

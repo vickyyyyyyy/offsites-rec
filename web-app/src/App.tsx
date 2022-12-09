@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import ReactTooltip from "react-tooltip";
 import WorldMap from "./WorldMap";
 import "./map.css";
@@ -11,6 +11,35 @@ import airports from "./airports.json"
 
 const defaultDestinations = "AUS,JFK,BCN,LIS,LHR,NRT,BKK"
 
+const testResponse = [
+  {
+    destination: "OPO",
+    avgs: [
+      {"origin": "NYCA", "price": 427, "duration": 642, "stops": 1},
+      {"origin": "LGW", "price": 83, "duration": 143, "stops": 0},
+      {"origin": "MAD", "price": 68, "duration": 76, "stops": 0},
+    ],
+    totalPrice: 578
+  },
+  {
+    destination: "NRT",
+    avgs: [
+      {"origin": "NYCA", "price": 427, "duration": 642, "stops": 1},
+      {"origin": "LGW", "price": 83, "duration": 143, "stops": 0},
+      {"origin": "MAD", "price": 68, "duration": 76, "stops": 0},
+    ],
+    totalPrice: 2500
+  },
+  {
+    destination: "JFK",
+    avgs: [
+      {"origin": "NYCA", "price": 427, "duration": 642, "stops": 1},
+      {"origin": "LGW", "price": 83, "duration": 143, "stops": 0},
+      {"origin": "MAD", "price": 68, "duration": 76, "stops": 0},
+    ],
+    totalPrice: 1500
+  }
+]
 
 export default function App() {
   const [content, setContent] = React.useState("");
@@ -19,6 +48,7 @@ export default function App() {
   const [departureDate, setDepartureDate] = React.useState<any>("")
   const [returnDate, setReturnDate] = React.useState<any>("")
   const [destinations, setDestinations] = React.useState(defaultDestinations)
+  const [flights, setFlights] = React.useState<any>([])
 
   const formatUrl = (destination: string) => {
     const formattedOrigins = origins.split(",").map(origin => `&origins=${origin}`).join("")
@@ -33,6 +63,8 @@ export default function App() {
       console.log(airports.find(a => a.iata === d)?.country)
       console.log(formatUrl(d))
     })
+
+    setFlights(testResponse)
   }
 
   return (
@@ -81,7 +113,7 @@ export default function App() {
         onChange={(e) => setBudget(+e.target.value)}
       />
       <Button variant="contained" onClick={handleSearch}>Search</Button>
-      <WorldMap setTooltipContent={setContent} />
+      <WorldMap flights={flights} setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
     </div>
   );
