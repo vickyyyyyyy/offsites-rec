@@ -10,7 +10,8 @@ import dayjs from "dayjs";
 import airports from "./airports.json"
 import axios from "axios"
 
-const defaultDestinations = "JFK,BCN,LIS"
+const defaultDestinations = "AUS,JFK,NRT"
+const defaultOrigins = "SFO,LGW"
 
 // TODO: replace with API call instead of hardcoded responses for testing
 const testResponse = [
@@ -45,7 +46,7 @@ const testResponse = [
 
 export default function App() {
   const [content, setContent] = React.useState("");
-  const [origins, setOrigins] = React.useState("")
+  const [origins, setOrigins] = React.useState(defaultOrigins)
   const [budget, setBudget] = React.useState(0)
   const [departureDate, setDepartureDate] = React.useState<any>(dayjs().add(3, "M"))
   const [returnDate, setReturnDate] = React.useState<any>(dayjs(dayjs().add(3, "M")).add(1, "w"))
