@@ -28,7 +28,7 @@ const testResponse = [
       {"origin": "LGW", "price": 83, "duration": 143, "stops": 0},
       {"origin": "MAD", "price": 68, "duration": 76, "stops": 0},
     ],
-    totalPrice: 2500
+    totalPrice: 5000
   },
   {
     destination: "JFK",
@@ -37,7 +37,7 @@ const testResponse = [
       {"origin": "LGW", "price": 83, "duration": 143, "stops": 0},
       {"origin": "MAD", "price": 68, "duration": 76, "stops": 0},
     ],
-    totalPrice: 1500
+    totalPrice: 2000
   }
 ]
 
@@ -113,7 +113,7 @@ export default function App() {
         onChange={(e) => setBudget(+e.target.value)}
       />
       <Button variant="contained" onClick={handleSearch}>Search</Button>
-      <WorldMap flights={flights} setTooltipContent={setContent} />
+      <WorldMap budget={budget} flights={flights} setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
     </div>
   );
