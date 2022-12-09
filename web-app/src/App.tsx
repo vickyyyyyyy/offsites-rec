@@ -7,12 +7,10 @@ import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from "dayjs";
+import airports from "./airports.json"
 
-const defaultDestinations = `
-AUS,JFK,
-BCN,LIS,LHR,
-TYO,BKK
-`.trim()
+const defaultDestinations = "AUS,JFK,BCN,LIS,LHR,NRT,BKK"
+
 
 export default function App() {
   const [content, setContent] = React.useState("");
@@ -31,7 +29,10 @@ export default function App() {
   }
 
   const handleSearch = () => {
-    destinations.split(",").map(d => console.log(formatUrl(d)))
+    destinations.split(",").forEach(d => {
+      console.log(airports.find(a => a.iata === d)?.country)
+      console.log(formatUrl(d))
+    })
   }
 
   return (
