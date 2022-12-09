@@ -8,7 +8,13 @@ import {
 } from "react-simple-maps";
 import airports from "./airports.json"
 
-const MapChart = ({ budget, flights, setTooltipContent }: any) => {
+const MapChart = ({ 
+    budget,
+    destinations,
+    setDestinations,
+    flights,
+    setTooltipContent
+  }: any) => {
   const budgetColors = {
     in: "#16b302",
     close: "#ffb300",
@@ -38,6 +44,12 @@ const MapChart = ({ budget, flights, setTooltipContent }: any) => {
     }
   })
 
+  const getAirportCodesForCountry = (country: string) => {
+    const airportCodes = airports.filter(a => a.size === "large" && a.country === country).map(a => a.iata)
+    // TODO: return only subset of or airports in capital for larger countries
+    return airportCodes.length > 0 && airportCodes.length < 3 ? airportCodes.join(",") : ""
+  }
+
   return (
     <div data-tip="">
       <ComposableMap>
@@ -48,12 +60,12 @@ const MapChart = ({ budget, flights, setTooltipContent }: any) => {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  onMouseEnter={() => {
-                    setTooltipContent(`${geo.properties.name}`);
+                  onMouseDownCapture={() => {
+                    const airportDestinations = getAirportCodesForCountry(geo.properties.name)
+                    setDestinations(`${destinations}${destinations && airportDestinations ? "," : ""}${airportDestinations}`)
                   }}
-                  onMouseLeave={() => {
-                    setTooltipContent("");
-                  }}
+                  onMouseEnter={() => setTooltipContent(`${geo.properties.name}`)}
+                  onMouseLeave={() => setTooltipContent("")}
                   style={{
                     default: {
                       fill: "#D6D6DA",

@@ -9,8 +9,9 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from "dayjs";
 import airports from "./airports.json"
 
-const defaultDestinations = "AUS,JFK,BCN,LIS,LHR,NRT,BKK"
+const defaultDestinations = "JFK,BCN,LIS,LHR"
 
+// TODO: replace with API call instead of hardcoded responses for testing
 const testResponse = [
   {
     destination: "OPO",
@@ -45,8 +46,8 @@ export default function App() {
   const [content, setContent] = React.useState("");
   const [origins, setOrigins] = React.useState("")
   const [budget, setBudget] = React.useState(0)
-  const [departureDate, setDepartureDate] = React.useState<any>("")
-  const [returnDate, setReturnDate] = React.useState<any>("")
+  const [departureDate, setDepartureDate] = React.useState<any>(dayjs().add(3, "M"))
+  const [returnDate, setReturnDate] = React.useState<any>(dayjs(dayjs().add(3, "M")).add(1, "w"))
   const [destinations, setDestinations] = React.useState(defaultDestinations)
   const [flights, setFlights] = React.useState<any>([])
 
@@ -74,7 +75,7 @@ export default function App() {
         label="Origin airport codes"
         multiline
         rows={6}
-        defaultValue={origins}
+        value={origins}
         variant="filled"
         onChange={(e) => setOrigins(e.target.value as any)}
       />
@@ -83,7 +84,7 @@ export default function App() {
         label="Destination airport codes"
         multiline
         rows={6}
-        defaultValue={destinations}
+        value={destinations}
         variant="filled"
         onChange={(e) => setDestinations(e.target.value as any)}
       />
@@ -113,7 +114,13 @@ export default function App() {
         onChange={(e) => setBudget(+e.target.value)}
       />
       <Button variant="contained" onClick={handleSearch}>Search</Button>
-      <WorldMap budget={budget} flights={flights} setTooltipContent={setContent} />
+      <WorldMap
+        budget={budget}
+        destinations={destinations}
+        setDestinations={setDestinations}
+        flights={flights}
+        setTooltipContent={setContent}
+      />
       <ReactTooltip>{content}</ReactTooltip>
     </div>
   );
