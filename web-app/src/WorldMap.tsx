@@ -20,29 +20,50 @@ const MapChart = ({
     close: "#ffb300",
     out: "#F00"
   }
+  const [markers, setMarkers] = React.useState<any>([])
 
-  const totalBudget = flights.length * budget
-  // 10% tolerance for determining closeness
-  const budgetThreshold = 0.1
+  React.useEffect(() => {
+    const totalB = (flights[0]?.avgs?.length || 0) * budget
 
-  const checkAgainstBudget = (cost: number) => {
+    setMarkers(markers.map((marker: any) => ({
+      ...marker,
+      color: checkAgainstBudget(marker.cost, totalB)
+    })))
+  }, [budget])
+
+  React.useEffect(() => {
+    const totalB = (flights[0]?.avgs?.length || 0) * budget
+    setMarkers(
+      [
+        ...markers,
+        // do not return markers for existing ones
+        ...(markers.length > 0
+          ? (flights.filter((f: any) => markers.some((m: any) => f.destination !== m.iata)))
+          : flights.map((f: any) => {
+            const airport = airports.find(a => a.iata === f.destination)
+        
+            return {
+              iata: airport?.iata,
+              markerOffset: -10,
+              name: airport?.name,
+              city: airport?.city,
+              coordinates: [airport?.longitude, airport?.latitude],
+              cost: f.totalPrice,
+              color: checkAgainstBudget(+f.totalPrice, totalB)
+            }
+          }))
+    ])
+  }, [flights])
+
+
+  const checkAgainstBudget = (cost: number, totalBudget: number) => {
+    // 10% tolerance for determining closeness
+    const budgetThreshold = 0.1
+
     if (Math.abs(totalBudget - cost) < (totalBudget * budgetThreshold)) return budgetColors.close 
     if (cost < totalBudget) return budgetColors.in 
     if (cost > totalBudget) return budgetColors.out 
   }
-
-  const markers = flights.map((f: any) => {
-    const airport = airports.find(a => a.iata === f.destination)
-
-    return {
-      markerOffset: -10,
-      name: airport?.name,
-      city: airport?.city,
-      coordinates: [airport?.longitude, airport?.latitude],
-      cost: f.totalPrice,
-      color: checkAgainstBudget(+f.totalPrice)
-    }
-  })
 
   const getAirportCodesForCountry = (country: string) => {
     const airportCodes = airports.filter(a => a.size === "large" && a.country === country).map(a => a.iata)

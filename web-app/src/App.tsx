@@ -8,8 +8,9 @@ import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from "dayjs";
 import airports from "./airports.json"
+import axios from "axios"
 
-const defaultDestinations = "JFK,BCN,LIS,LHR"
+const defaultDestinations = "JFK,BCN,LIS"
 
 // TODO: replace with API call instead of hardcoded responses for testing
 const testResponse = [
@@ -51,21 +52,24 @@ export default function App() {
   const [destinations, setDestinations] = React.useState(defaultDestinations)
   const [flights, setFlights] = React.useState<any>([])
 
-  const formatUrl = (destination: string) => {
-    const formattedOrigins = origins.split(",").map(origin => `&origins=${origin}`).join("")
-    const formattedDeparture = dayjs(departureDate).format("YYYY-MM-DD")
-    const formattedReturn = dayjs(returnDate).format("YYYY-MM-DD")
+  const handleSearch = async () => {
+    destinations.split(",").forEach((destination: string) => {
+      const options = {
+        method: "GET",
+        url: process.env.REACT_APP_API_URL,
+        params: {
+          origins,
+          destination,
+          departureDate: dayjs(departureDate).format("YYYY-MM-DD"),
+          returnDate: dayjs(returnDate).format("YYYY-MM-DD"),
+        }
+      }
 
-    return `${process.env.REACT_APP_API_URL}?destination=${destination}&departureDate=${formattedDeparture}&returnDate=${formattedReturn}${formattedOrigins}`
-  }
-
-  const handleSearch = () => {
-    destinations.split(",").forEach(d => {
-      console.log(airports.find(a => a.iata === d)?.country)
-      console.log(formatUrl(d))
+      // const response = await axios.request(options)
+      // console.log("response.data", response.data)
+      // filter on any same destinations
+      setFlights((f: any) => f.some((fl: any) => fl.destination === testResponse[0].destination) ? f : [...f, testResponse[0]])
     })
-
-    setFlights(testResponse)
   }
 
   return (
