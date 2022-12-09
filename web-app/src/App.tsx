@@ -54,15 +54,20 @@ export default function App() {
 
   const handleSearch = async () => {
     destinations.split(",").forEach(async (destination: string) => {
+      const params = new URLSearchParams({
+        destination,
+        departureDate: dayjs(departureDate).format("YYYY-MM-DD"),
+        returnDate: dayjs(returnDate).format("YYYY-MM-DD"),
+      })
+
+      origins.split(",").forEach((o: any) => {
+        params.append("origins", o);
+      })
+  
       const options = {
         method: "GET",
         url: process.env.REACT_APP_API_URL,
-        params: {
-          origins,
-          destination,
-          departureDate: dayjs(departureDate).format("YYYY-MM-DD"),
-          returnDate: dayjs(returnDate).format("YYYY-MM-DD"),
-        }
+        params
       }
 
       const response = await axios.request(options)

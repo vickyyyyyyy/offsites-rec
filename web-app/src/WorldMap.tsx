@@ -109,7 +109,7 @@ const MapChart = ({
             <Marker
               key={name}
               coordinates={coordinates as any}
-              onMouseEnter={() => setTooltipContent("Total cost: " + cost)}
+              onMouseEnter={() => setTooltipContent(`$${cost}`)}
               onMouseLeave={() => setTooltipContent("")}
             >
               <circle r={5} fill={color} stroke="#fff" strokeWidth={1} />
