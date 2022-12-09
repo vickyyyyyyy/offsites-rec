@@ -83,7 +83,9 @@ const MapChart = ({
                   geography={geo}
                   onMouseDownCapture={() => {
                     const airportDestinations = getAirportCodesForCountry(geo.properties.name)
-                    setDestinations(`${destinations}${destinations && airportDestinations ? "," : ""}${airportDestinations}`)
+                    const newDestinations = `${destinations}${destinations && airportDestinations ? "," : ""}${airportDestinations}`.split(",")
+                    // remove duplicates
+                    setDestinations(newDestinations.filter((e: any, i: any) => newDestinations.indexOf(e) === i).join(","))
                   }}
                   onMouseEnter={() => setTooltipContent(`${geo.properties.name}`)}
                   onMouseLeave={() => setTooltipContent("")}
