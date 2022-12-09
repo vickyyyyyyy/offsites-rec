@@ -44,6 +44,7 @@ describe("getFlights", () => {
     expect(await getFlight.handler(inputEvent())).toEqual({
       statusCode: 200,
       body: JSON.stringify({
+        destination: "OPO",
         avgs: [
           {"origin": "NYCA", "price": 427, "duration": 642, "stops": 1},
           {"origin": "LGW", "price": 83, "duration": 143, "stops": 0},
@@ -83,6 +84,7 @@ describe("getFlights", () => {
     expect(await getFlight.handler(inputEv)).toEqual({
       statusCode: 200,
       body: JSON.stringify({
+        destination: "OPO",
         avgs: [
           {"origin": "NYCA", "price": 427, "duration": 642, "stops": 1},
           {"origin": "NYCA", "price": 427, "duration": 642, "stops": 1},
