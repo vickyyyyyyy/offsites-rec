@@ -2,7 +2,7 @@ import React from "react";
 import ReactTooltip from "react-tooltip";
 import WorldMap from "./WorldMap";
 import "./map.css";
-import { Button, TextField } from '@mui/material';
+import { Box, Button, Grid, TextField } from '@mui/material';
 import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
@@ -78,59 +78,79 @@ export default function App() {
   }
 
   return (
-    <div>
-      <TextField
-        id="origin-airport-codes"
-        label="Origin airport codes"
-        multiline
-        rows={6}
-        value={origins}
-        variant="filled"
-        onChange={(e) => setOrigins(e.target.value as any)}
-      />
-      <TextField
-        id="destination-airport-codes"
-        label="Destination airport codes"
-        multiline
-        rows={6}
-        value={destinations}
-        variant="filled"
-        onChange={(e) => setDestinations(e.target.value as any)}
-      />
-      <LocalizationProvider dateAdapter={AdapterDayjs}>
-        <DesktopDatePicker
-          label="Departure date"
-          inputFormat="YYYY-MM-DD"
-          value={departureDate}
-          onChange={setDepartureDate}
-          renderInput={(params) => <TextField {...params} />}
-        />
-        <DesktopDatePicker
-          label="Return date"
-          inputFormat="YYYY-MM-DD"
-          value={returnDate}
-          onChange={setReturnDate}
-          renderInput={(params) => <TextField {...params} />}
-        />
-      </LocalizationProvider>
-      <TextField
-        id="budget"
-        label="Budget"
-        variant="filled"
-        error={false}
-        helperText={""}
-        type="number"
-        onChange={(e) => setBudget(+e.target.value)}
-      />
-      <Button variant="contained" onClick={handleSearch}>Search</Button>
-      <WorldMap
-        budget={budget}
-        destinations={destinations}
-        setDestinations={setDestinations}
-        flights={flights}
-        setTooltipContent={setContent}
-      />
-      <ReactTooltip>{content}</ReactTooltip>
-    </div>
+    <Grid container xs={12}>
+      <Grid item xs={2}>
+        <Box m={2}>
+          <TextField
+            id="origin-airport-codes"
+            label="Origin airport codes"
+            multiline
+            rows={6}
+            value={origins}
+            variant="filled"
+            onChange={(e) => setOrigins(e.target.value as any)}
+          />
+        </Box>
+        <Box m={2}>
+          <TextField
+            id="destination-airport-codes"
+            label="Destination airport codes"
+            multiline
+            rows={6}
+            value={destinations}
+            variant="filled"
+            onChange={(e) => setDestinations(e.target.value as any)}
+          />
+        </Box>
+      </Grid>
+      <Grid item xs={12} sm container>
+        <Grid item xs={12} pt={2} container spacing={2} justifyContent="center">
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <Grid item>
+            <DesktopDatePicker
+              label="Departure date"
+              inputFormat="YYYY-MM-DD"
+              value={departureDate}
+              onChange={setDepartureDate}
+              renderInput={(params) => <TextField {...params} />}
+            />
+            </Grid>
+            <Grid item>
+              <DesktopDatePicker
+                label="Return date"
+                inputFormat="YYYY-MM-DD"
+                value={returnDate}
+                onChange={setReturnDate}
+                renderInput={(params) => <TextField {...params} />}
+              />
+            </Grid>
+          </LocalizationProvider>
+          <Grid item>
+            <TextField
+              id="budget"
+              label="Budget"
+              variant="filled"
+              error={false}
+              helperText={""}
+              type="number"
+              onChange={(e) => setBudget(+e.target.value)}
+            />
+          </Grid>
+          <Grid item>
+            <Button variant="contained" onClick={handleSearch}>Search</Button>
+          </Grid>
+        </Grid>
+        <Grid item xs={10}>
+          <WorldMap
+            budget={budget}
+            destinations={destinations}
+            setDestinations={setDestinations}
+            flights={flights}
+            setTooltipContent={setContent}
+          />
+        </Grid>
+      </Grid>
+    <ReactTooltip>{content}</ReactTooltip>
+    </Grid>
   );
 }
