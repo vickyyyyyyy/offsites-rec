@@ -9,6 +9,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from "dayjs";
 import airports from "./airports.json"
 import axios from "axios"
+import { BarLoader } from "react-spinners"
 
 const defaultDestinations = "AUS,JFK,NRT"
 const defaultOrigins = "SFO,LGW"
@@ -45,7 +46,8 @@ const testResponse = [
 ]
 
 export default function App() {
-  const [content, setContent] = React.useState("");
+  const [loading, setLoading] = React.useState(false)
+  const [content, setContent] = React.useState("")
   const [origins, setOrigins] = React.useState(defaultOrigins)
   const [budget, setBudget] = React.useState(0)
   const [departureDate, setDepartureDate] = React.useState<any>(dayjs().add(3, "M"))
@@ -54,7 +56,9 @@ export default function App() {
   const [flights, setFlights] = React.useState<any>([])
 
   const handleSearch = async () => {
-    destinations.split(",").forEach(async (destination: string) => {
+    const allDestinations = destinations.split(",")
+    setLoading(true)
+    allDestinations.forEach(async (destination: string) => {
       const params = new URLSearchParams({
         destination,
         departureDate: dayjs(departureDate).format("YYYY-MM-DD"),
@@ -71,9 +75,19 @@ export default function App() {
         params
       }
 
-      const response = await axios.request(options)
-      // filter on any same destinations
-      setFlights((f: any) => f.some((fl: any) => fl.destination === response.data.destination) ? f : [...f, response.data])
+      try {
+        const response = await axios.request(options)
+
+        // if this is the last request, wait for it
+        if (destination === allDestinations[allDestinations.length-1]) {
+          setLoading(false)
+        }
+
+        // filter on any same destinations
+        setFlights((f: any) => f.some((fl: any) => fl.destination === response.data.destination) ? f : [...f, response.data])
+      } catch (error) {
+        setLoading(false)
+      }
     })
   }
 
@@ -137,9 +151,14 @@ export default function App() {
             />
           </Grid>
           <Grid item>
-            <Button variant="contained" onClick={handleSearch}>Search</Button>
+            <Button variant="contained" onClick={handleSearch}>
+              <div>
+                Search<br></br>
+                <BarLoader loading={loading} color="#36d7b7" />
+              </div>
+            </Button>
           </Grid>
-        </Grid>
+        </Grid>        
         <Grid item xs={10}>
           <WorldMap
             budget={budget}
