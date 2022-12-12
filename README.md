@@ -4,6 +4,23 @@ Uses the [Skyscanner API](https://rapidapi.com/3b-data-3b-data-default/api/skysc
 
 ## Web application
 
+Given the following:
+* Origin airport codes
+* Destination airport codes
+* Departure and return dates
+* Budget (per person/origin airport code)
+
+The web application will provide information on:
+* Total cost of the flights (on marker hover)
+* Budget restrictions:
+    * Green: within budget
+    * Amber: close to budget (can be within or outside)
+    * Red: out of budget
+
+### Demo
+
+![Web application](./demo.gif)
+
 More information [here](./web-app/README.md).
 
 ### How to run
